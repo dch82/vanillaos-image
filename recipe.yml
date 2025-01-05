@@ -35,6 +35,7 @@ stages:
     - apt-get update && apt-get install -y gnome-tweaks
   - name: install-podman
     type: shell
+    commands:
     - apt-get update && apt-get install -y podman
   # Put your custom actions above this comment
 
